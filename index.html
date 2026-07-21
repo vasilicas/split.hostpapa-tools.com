@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Split: Security Questions</title>
+</head>
+
+	<header>
+		<script src="spli.js"></script>
+		<style>
+			body {
+				font-family: arial;
+				line-height: 20px;
+			}
+		</style>
+	</header>
+	<body>
+		<textarea style="width:35%; height: 35%; padding: none;" id="questions" onkeydown="if (event.keyCode == 13){split();};"></textarea><br>
+		<button onclick="split()" id="btnn">Split questions</button>
+		<div id="container">
+		</div>
+</body>
+</html>
